@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Aldrich.CarrionAndPlague</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(Src)Plague*.cs;$(Src)CatStatue*.cs;$(Src)Plugin.Carrion.cs" />
+  </ItemGroup>
+</Project>

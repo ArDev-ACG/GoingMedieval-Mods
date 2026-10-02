@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: AldrichMeshesUndeadHorde
+  m_EditorClassIdentifier: 
+  m_GroupName: AldrichMeshesUndeadHorde
+  m_Data:
+    m_SerializedData: []
+  m_GUID: caa1c2a872787944b9daafd14b98505b
+  m_SerializeEntries:
+  - m_GUID: d6ab1f9444bcd0b429d5007a32d5cef5
+    m_Address: undead_claws
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Mesh
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 47b831f3ded438d409ddc24bf661c8d0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d5170c03b7d049d47a8e2459c1201efa, type: 2}
+    - {fileID: 11400000, guid: 0bcd752823f3fa84ab666ad883eebf8d, type: 2}

@@ -1,0 +1,88 @@
+[size=5][b]Aldrich - Vampire Court[/b][/size]
+Choose the Vampire perk at character creation, and build them a court.
+
+[b]Tested on Going Medieval 1.1.19.[/b] English and Spanish texts.
+
+[size=4][b]Features[/b][/size]
+[list]
+[*][b]Vampire perk[/b] - chosen in advanced character creation: needs almost no sleep, barely eats, hits harder and heals faster - but the sun burns them. The cold does not bother them at all.
+[*][b]Thirst and the bite[/b] - vampires grow thirsty and drink from animals or people. Order a bite yourself from the settler's menu.
+[*][b]Thralls[/b] - a free settler bitten by a vampire is marked by the Count: happier, no complaints and no breakdowns, but slowly losing blood.
+[*][b]Ghoul perk[/b] - the court's servants share some of the vampire's gifts.
+[*][b]The Count[/b] - a chapel role with four ranks. Ranks are earned by killing, and the fourth is Dracula - an end-game goal. Every kill makes a vampire a little stronger.
+[*][b]Blood draughts[/b] - distilled at the apothecary bench or the blood altar, drawn from the blood well, and drunk from a stockpile or a shelf.
+[*][b]The court[/b] - throne, coffin, crypt, banners, reliquary, crimson candles, veiled mirror, vigil table, blood well, blood altar, brazier, crimson circle and the impaled stake that frightens attackers - each behind its research.
+[*][b]Sleeping in a coffin[/b] - protects from the sun and heals.
+[*][b]The Crimson Vigil[/b] - a celebration held at the crimson circle inside a pagan chapel.
+[/list]
+
+[size=4][b]Perks[/b][/size]
+[b]Vampire[/b] (8 points, advanced character creation; conflicts with [i]Benevolent[/i])
+[list]
+[*]Needs 70% less sleep and 60% less food.
+[*]+35% melee damage, +15% movement, +20% evasion, +50% health recovery.
+[*]Very little tolerance for sunlight (x0.35), and it comes back slowly.
+[*]Corpses, butchering and human flesh do not upset them; never cold, never freezes.
+[*]Gets on well with [i]Callous[/i], [i]Cannibal[/i] and [i]Bloodlust[/i] settlers.
+[/list]
+[b]Ghoul[/b] (2 points)
+[list]
+[*]Needs 30% less sleep, +5% movement, +20% health recovery, corpses do not upset them, never cold.
+[*]Suffers the sun even worse than a vampire.
+[/list]
+[b]Thrall[/b] (cannot be picked - it is given by a vampire's bite)
+[list]
+[*]+40 mood while serving, no complaint bubbles, no breakdowns and never leaves.
+[*]Loses a little blood over time, down to 60.
+[/list]
+
+[size=4][b]How it works[/b][/size]
+[list]
+[*][b]Day and night[/b] - under the open sun a vampire gets -18 mood, -40% work speed and -25% movement, and burns if it stays out. At night: +6 mood, +20% work speed and +10% movement. Under a roof the sun stops hurting and wounds close faster; asleep in a coffin they heal eight times faster.
+[*][b]At home in the cold[/b] - below 2 degrees: +6 mood and faster healing.
+[*][b]Thirst[/b] - three stages over about 25 real minutes without blood: -10, -22 and -35 mood, with work and focus falling. At the last stage the vampire hits harder and goes for whoever is nearest.
+[*][b]The bite[/b] - order it from the settler's menu, or let the thirst decide. It heals the vampire, takes blood from the victim (light-headed for a day), and can knock them out (10% per hit). A fed vampire gets +16 mood and fights better for a day.
+[*][b]Ghouls[/b] - an ordered bite on a prisoner has a 20% chance to turn them into a Ghoul who joins the settlement.
+[*][b]Blood draughts[/b] - +10 mood, +15% melee damage and more sun tolerance for two days. Drinking one also counts as feeding.
+[*][b]The Count[/b] - a role for the pagan chapel that raises pagan influence every day, and gives an aura of +5 to +16 mood to settlers within 12 tiles.
+[list]
+[*]Level 1 - Scion of the court: +10% melee damage, better at recruiting.
+[*]Level 2 - Lord of the crypt: 5 kills. More health, more sun tolerance, followers and animals come easier.
+[*]Level 3 - The Count: 15 kills. Walks in daylight far longer, +35% melee damage, faster strikes.
+[*]Level 4 - Dracula: 30 kills and the advanced pagan chapel. +53% melee damage, +38% health, +45% evasion, three times the sun tolerance.
+[/list]
+[*][b]Blood taken[/b] - every vampire kill counts, up to 20: +2% melee damage and max health and +0.5% speed each (+40% / +40% / +10% at 20).
+[*][b]The impaled stake[/b] - enemies within 10 tiles lose 25 mood, hit 30% less often and for 30% less, dodge less and attack slower.
+[/list]
+Every number above can be changed in [i]BepInEx\config\aldrich.vampire_court.cfg[/i].
+
+[size=4][b]Requirements[/b][/size]
+[list]
+[*][b]BepInEx 5 (x64)[/b]. Vortex installs it for you with Going Medieval.
+[/list]
+
+[size=4][b]Installation[/b][/size]
+[b]With Vortex:[/b] install it like any other mod.
+
+[b]By hand:[/b]
+[list=1]
+[*]Install BepInEx 5 (x64) in the Going Medieval folder, if you have not already.
+[*]Extract the archive into the Going Medieval folder (where [i]Going Medieval.exe[/i] is), so the file ends up at:
+[code]Going Medieval\BepInEx\plugins\AldrichVampireCourt\Aldrich.VampireCourt.dll[/code]
+[/list]
+On the first launch the mod copies its data to [i]Documents\Foxy Voxel\Going Medieval\Mods\VampireCourt[/i], which is where the game reads mods from. If it does not show as active in the game's [b]Mods[/b] menu, enable [i]Aldrich - Vampire Court[/i] there once.
+
+[size=4][b]Settings[/b][/size]
+After the first launch, in [i]BepInEx\config\aldrich.*.cfg[/i].
+
+[size=4][b]Uninstall[/b][/size]
+Remove the mod in Vortex, or delete [i]BepInEx\plugins\AldrichVampireCourt[/i], and delete [i]Documents\Foxy Voxel\Going Medieval\Mods\VampireCourt[/i]. Anything already built or spawned with it disappears from saves that have it.
+
+[size=4][b]Compatibility[/b][/size]
+Works on its own. Plays well with the other Aldrich mods.
+
+[size=4][b]Problems[/b][/size]
+Please post [i]Going Medieval\BepInEx\LogOutput.log[/i] - the lines that start with [i][data][/i] and [i]Aldrich - Vampire Court[/i] tell what happened.
+
+[size=4][b]Permissions[/b][/size]
+All rights reserved. Please do not re-upload this mod, in whole or in part, to any other site, and do not publish modified versions of it. The only official download is this page.

@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Aldrich.UndeadHorde</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(Src)Risen*.cs;$(Src)UndeadComposure.cs;$(Src)UndeadInfection.cs;$(Src)Plugin.Undead.cs" />
+    <Compile Include="$(Src)Plugin.Kin.cs" />
+  </ItemGroup>
+</Project>

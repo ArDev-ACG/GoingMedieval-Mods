@@ -1,0 +1,55 @@
+[size=5][b]Aldrich - Gravedigger[/b][/size]
+For the plague years and the lost sieges: somewhere to put the dead, and someone whose job it is.
+
+[b]Tested on Going Medieval 1.1.19.[/b] English and Spanish texts.
+
+[size=4][b]Features[/b][/size]
+[list]
+[*][b]Mass Grave[/b] - one wide pit for six bodies. Cheap, quick to dig and grim to look at.
+[*][b]Mass Pyre[/b] - its own building: stack three bodies and burn them in a single, longer fire. More fuel than one by one, but the settlement stays clean when the dead pile up.
+[*][b]Gravedigger role[/b] - the settlement's sexton, answering to the chapel. Three levels.
+[*][b]Gravedigger perk[/b] - corpses are work, not horror: nothing about them upsets this settler, and a life among the sick has left a body that shakes off disease faster.
+[/list]
+
+[size=4][b]Perk: Gravedigger[/b][/size]
+[list]
+[*]Costs [b]3 points[/b] at character creation.
+[*]Seeing, handling or smelling corpses never upsets them (no dead-body mood penalties, no stomach damage from carcasses or rot).
+[*]Wounds close and health recovers [b]twice as fast[/b].
+[*]Likes hauling and tending work; gets on well with [i]Callous[/i] settlers.
+[/list]
+
+[size=4][b]How it works[/b][/size]
+[list]
+[*][b]Gravedigger role[/b] - needs a chapel. Level 1: +4 mood. Level 3 (Sexton of the chapel): +10 mood and +10% work speed. Losing the chapel suspends the role.
+[*][b]Mass Grave[/b] - holds six bodies in one plot.
+[*][b]Mass Pyre[/b] - three bodies per burn, one longer fire.
+[/list]
+
+[size=4][b]Requirements[/b][/size]
+[list]
+[*][b]BepInEx 5 (x64)[/b]. Vortex installs it for you with Going Medieval.
+[/list]
+
+[size=4][b]Installation[/b][/size]
+[b]With Vortex:[/b] install it like any other mod.
+
+[b]By hand:[/b]
+[list=1]
+[*]Install BepInEx 5 (x64) in the Going Medieval folder, if you have not already.
+[*]Extract the archive into the Going Medieval folder (where [i]Going Medieval.exe[/i] is), so the file ends up at:
+[code]Going Medieval\BepInEx\plugins\AldrichGravedigger\Aldrich.Gravedigger.dll[/code]
+[/list]
+On the first launch the mod copies its data to [i]Documents\Foxy Voxel\Going Medieval\Mods\Gravedigger[/i], which is where the game reads mods from. If it does not show as active in the game's [b]Mods[/b] menu, enable [i]Aldrich - Gravedigger[/i] there once.
+
+[size=4][b]Uninstall[/b][/size]
+Remove the mod in Vortex, or delete [i]BepInEx\plugins\AldrichGravedigger[/i], and delete [i]Documents\Foxy Voxel\Going Medieval\Mods\Gravedigger[/i]. Graves and pyres already built with it disappear from saves that have them.
+
+[size=4][b]Compatibility[/b][/size]
+Works on its own. Plays well with the other Aldrich mods.
+
+[size=4][b]Problems[/b][/size]
+Please post [i]Going Medieval\BepInEx\LogOutput.log[/i] - the lines that start with [i][data][/i] and [i]Aldrich - Gravedigger[/i] tell what happened.
+
+[size=4][b]Permissions[/b][/size]
+All rights reserved. Please do not re-upload this mod, in whole or in part, to any other site, and do not publish modified versions of it. The only official download is this page.

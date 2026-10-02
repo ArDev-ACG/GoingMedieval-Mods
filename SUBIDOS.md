@@ -1,0 +1,7 @@
+# Subidos - Mods Going Medieval
+
+Lo que ya esta publicado. Sale de `PENDIENTES.md` al subirse; aqui queda lo que hay que mirar cuando llegue un reporte.
+
+| Que | Donde | Que vigilar |
+|---|---|---|
+| **Aldrich Minimap: publicado, en vigilancia** | `src/AldrichMinimap/` (plugin suelto), `src/GMPlugins/Minimap.cs` y `Heartbeat.cs` (compartidos) | **Publicado en Nexus el 26: https://www.nexusmods.com/goingmedieval/mods/149.** La 1.0.0 llevaba dentro de la DLL la ruta del `.pdb` con el usuario de Windows; la **1.0.1** se compila sin pdb ni rutas (`DebugType none` + `PathMap` en el `.csproj`) y hay que subirla como *Main file*, pasando la 1.0.0 a *Old versions*. No es una tarea: es lo que hay que mirar cuando llegue un reporte. *Donde mira un jugador*: `BepInEx\LogOutput.log`, lineas `[minimap]` y `[Error  :Aldrich Minimap]`; si nunca sale `[minimap] visible`, la linea `hidden: ...` anterior dice por que. *Lo mas probable que falle*: una actualizacion del juego que cambie `Heightmap`, `WaterManager`, `VoxelType` o `RtsCamera` (compilado contra la rama **experimental**, build 25501486; sin probar en la estable). *Ojo al tocar `Minimap.cs` o `Heartbeat.cs`*: `Minimap.cs` solo lo compila el minimapa, pero `Heartbeat.cs` lo compilan tambien las cinco DLL de los mods; despues de cambiar algo, compilar tambien `src/AldrichMinimap` y, si va a Nexus, subir version en `Standalone.cs`, `README.txt` y el zip (`Release/AldrichMinimap/`, copia en `Nexus - Aldrich Minimap/`). *Pendiente menor*: `Salt` e `Iron` salen con color generico ("sin color propio" en el log) |

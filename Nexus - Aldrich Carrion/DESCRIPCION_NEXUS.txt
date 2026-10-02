@@ -1,0 +1,57 @@
+[size=5][b]Aldrich - Carrion and Plague[/b][/size]
+The dead you do not bury will not stay quiet: they bring the rats, and the rats bring the plague.
+
+[b]Tested on Going Medieval 1.1.19.[/b] English and Spanish texts.
+
+[size=4][b]Features[/b][/size]
+[list]
+[*][b]Corpses bring rats[/b] - unburied bodies draw rat swarms, larger and more often.
+[*][b]Plague fever[/b] - every rat bite that lands has a 35% chance to give the settler plague fever (configurable).
+[*][b]Contagion[/b] - the plague jumps between settlers standing close to each other.
+[*][b]Immunity[/b] - a settler who survives the fever is immune for life and carries a [i]Survived the plague[/i] mark.
+[*][b]Plague doctor mask and waxed coat[/b] - each one cuts the chance of catching it, and they can be worn together.
+[*][b]Cat statue[/b] - cats only keep coming back while a cat statue stands: three cats per statue.
+[/list]
+
+[size=4][b]How it works[/b][/size]
+[list]
+[*][b]Rats follow the dead[/b] - every unburied body makes the next animal raid more likely to be rats; with 8 or more bodies lying around, it [i]will[/i] be rats.
+[*][b]Plague rats[/b] - the carriers have a sickly colour so you can tell them apart. Each bite that lands rolls [b]35%[/b] for plague fever: on average three bites.
+[*][b]Plague fever[/b] - a real disease: needs a bed and a doctor. While it lasts: -25% movement, -30% work speed and much slower healing.
+[*][b]Contagion[/b] - every 30 seconds each sick settler can pass it to anyone within [b]3 tiles[/b] on the same floor (4% per person).
+[*][b]Immunity[/b] - survive the fever and the settler is immune for good, with a [i]Survived the plague[/i] mark (+10% wound healing).
+[*][b]Protection[/b] - multiplies the chance of catching it, from bites and from neighbours alike: cloth over the face x0.7, beaked mask x0.35, waxed plague coat x0.15. Mask and coat can be worn together. They also blunt the corpse stench and speed up healing.
+[*][b]Cat statue[/b] - cats only come back while a cat statue stands, three per statue. Cats already on the map stay.
+[/list]
+Every number above can be changed in [i]BepInEx\config\aldrich.carrion_and_plague.cfg[/i].
+
+[size=4][b]Requirements[/b][/size]
+[list]
+[*][b]BepInEx 5 (x64)[/b]. Vortex installs it for you with Going Medieval.
+[/list]
+
+[size=4][b]Installation[/b][/size]
+[b]With Vortex:[/b] install it like any other mod.
+
+[b]By hand:[/b]
+[list=1]
+[*]Install BepInEx 5 (x64) in the Going Medieval folder, if you have not already.
+[*]Extract the archive into the Going Medieval folder (where [i]Going Medieval.exe[/i] is), so the file ends up at:
+[code]Going Medieval\BepInEx\plugins\AldrichCarrionAndPlague\Aldrich.CarrionAndPlague.dll[/code]
+[/list]
+On the first launch the mod copies its data to [i]Documents\Foxy Voxel\Going Medieval\Mods\CarrionAndPlague[/i], which is where the game reads mods from. If it does not show as active in the game's [b]Mods[/b] menu, enable [i]Aldrich - Carrion and Plague[/i] there once.
+
+[size=4][b]Settings[/b][/size]
+After the first launch, in [i]BepInEx\config\aldrich.*.cfg[/i].
+
+[size=4][b]Uninstall[/b][/size]
+Remove the mod in Vortex, or delete [i]BepInEx\plugins\AldrichCarrionAndPlague[/i], and delete [i]Documents\Foxy Voxel\Going Medieval\Mods\CarrionAndPlague[/i]. Anything already built or spawned with it disappears from saves that have it.
+
+[size=4][b]Compatibility[/b][/size]
+Works on its own. Pairs well with [i]Aldrich - Gravedigger[/i] - somewhere to put the dead before the rats find them.
+
+[size=4][b]Problems[/b][/size]
+Please post [i]Going Medieval\BepInEx\LogOutput.log[/i] - the lines that start with [i][data][/i] and [i]Aldrich - Carrion and Plague[/i] tell what happened.
+
+[size=4][b]Permissions[/b][/size]
+All rights reserved. Please do not re-upload this mod, in whole or in part, to any other site, and do not publish modified versions of it. The only official download is this page.

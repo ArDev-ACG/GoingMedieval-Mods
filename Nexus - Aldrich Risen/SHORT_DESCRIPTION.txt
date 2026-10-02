@@ -1,0 +1,1 @@
+The Risen: a new hostile faction that never surrenders and never retreats. Weaponless and armourless, they tear at doors and settlers with their claws and leave the wounds festering. Requires BepInEx 5.

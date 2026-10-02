@@ -1,0 +1,51 @@
+# ---------------------------------------------------------------
+# GoingMedieval (Aldrich mods) — .gitignore
+#
+# Al repo solo van FUENTES PROPIAS: C#, scripts, docs, modelos e
+# iconos nuestros. Nada del juego (Foxy Voxel) ni de terceros.
+# ---------------------------------------------------------------
+
+# --- Build de .NET ---
+bin/
+obj/
+*.pdb
+
+# --- DLL de terceros (BepInEx/Harmony): se bajan de su web ---
+src/lib/
+
+# --- Releases empaquetados (van a Nexus / GitHub Releases) ---
+*.zip
+*.7z
+*.tgz
+Release/*/stage/
+Release/*/retirado-del-sistema/
+
+# --- Assets del juego (NUNCA subir) ---
+ASSESTS/Referencias/
+*VANILLA*
+
+# --- Modelos de terceros sin licencia conocida ---
+ASSESTS/Modelos Descomprimidos/
+
+# --- Proyecto Unity: solo Assets/, Packages/ y ProjectSettings/ ---
+tools/unity/*/Library/
+tools/unity/*/Temp/
+tools/unity/*/Logs/
+tools/unity/*/UserSettings/
+tools/unity/*/ServerData/
+tools/unity/*/obj/
+
+# --- Copias de seguridad y caches ---
+*.bak
+*.bak-*
+__pycache__/
+.impeccable/
+.claude/settings.local.json
+
+# --- Sistema / editor ---
+Thumbs.db
+desktop.ini
+.vs/
+.vscode/
+.idea/
+.obsidian/

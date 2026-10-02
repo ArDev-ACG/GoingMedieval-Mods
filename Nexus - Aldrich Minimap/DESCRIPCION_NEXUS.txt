@@ -1,0 +1,53 @@
+[size=5][b]Aldrich Minimap[/b][/size]
+A minimap of the surface of your map, always in the corner of the screen.
+
+[b]Tested on Going Medieval 1.1.19.[/b]
+
+[size=4][b]Features[/b][/size]
+[list]
+[*]Ground coloured by what is on it: grass, dirt, sand, clay, gravel, rock, snow, fields and roofs, with the relief shaded on top.
+[*]Water in three shades, by depth.
+[*]Everything alive as a coloured dot: settlers, visitors, prisoners, enemies, predators, livestock and wildlife.
+[*]The camera's view drawn on the map. [b]Click or drag[/b] on it to move the camera there.
+[*][b]+ / -[/b] buttons to zoom from 1x to 6x, kept centred on the camera.
+[*][b]Hover[/b] to read the name of the ground or water under the cursor, in the game's own language.
+[*][b]Ctrl+M[/b] shows and hides it.
+[*]Size, corner, position, zoom and key can be changed in the config file.
+[/list]
+
+[size=4][b]Note[/b][/size]
+When a game is loaded, the map can take [b]between 1 and 10 seconds[/b] to show correctly: it waits for the terrain and the water to finish loading and repaints itself a few times while they do. This is normal.
+
+[size=4][b]Requirements[/b][/size]
+[list]
+[*][b]BepInEx 5 (x64)[/b] installed in the Going Medieval folder.
+[/list]
+
+[size=4][b]Installation[/b][/size]
+[list=1]
+[*]Install BepInEx 5 (x64) in the Going Medieval folder, if you have not already.
+[*]Extract the archive into the Going Medieval folder (where [i]Going Medieval.exe[/i] is), so the file ends up at:
+[code]Going Medieval\BepInEx\plugins\AldrichMinimap\AldrichMinimap.dll[/code]
+[*]Start the game and load a map.
+[/list]
+
+[size=4][b]Settings[/b][/size]
+After the first launch:
+[code]Going Medieval\BepInEx\config\aldrich.minimap.cfg[/code]
+[list]
+[*][b]Size[/b] - side of the map, in pixels of a 1080p screen.
+[*][b]Corner[/b] - TopRight (default, left of the notifications) or BottomRight.
+[*][b]TopOffsetX / TopOffsetY[/b] - position when in the top right.
+[*][b]OffsetX / OffsetY[/b] - position when in the bottom right.
+[*][b]Zoom[/b] - 1 to 6.
+[*][b]ToggleKey[/b] - default M + LeftControl.
+[/list]
+
+[size=4][b]Uninstall[/b][/size]
+Delete the [i]AldrichMinimap[/i] folder from [i]BepInEx\plugins[/i]. The mod does not touch your saves: it can be added or removed at any time.
+
+[size=4][b]Compatibility[/b][/size]
+It only draws on top of the screen and reads the map; it does not change the game. It should work alongside other mods.
+
+[size=4][b]Permissions[/b][/size]
+All rights reserved. Please do not re-upload this mod, in whole or in part, to any other site, and do not publish modified versions of it. The only official download is this page.

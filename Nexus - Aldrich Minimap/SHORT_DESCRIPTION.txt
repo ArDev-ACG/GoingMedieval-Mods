@@ -1,0 +1,1 @@
+A minimap of your whole map in the corner of the screen: ground and water by colour, settlers, enemies and animals as dots. Click or drag to move the camera, zoom from 1x to 6x, hover to read the ground name, Ctrl+M to hide it. Requires BepInEx 5.

@@ -1,0 +1,64 @@
+[size=5][b]Aldrich - Undead Horde[/b][/size]
+A faction that never surrenders and never retreats.
+
+[b]Tested on Going Medieval 1.1.19.[/b] English and Spanish texts.
+
+[size=4][b]Features[/b][/size]
+[list]
+[*][b]The Risen[/b] - a new hostile faction on the world map, with its own faction type so it always gets a place.
+[*][b]Claws, not weapons[/b] - no armour and no weapons: they tear at doors and settlers with their hands, and the wounds fester.
+[*][b]Three kinds[/b] - the common risen, hulking brutes and lurkers - same claws, different weight.
+[*][b]They never break[/b] - no surrender, no retreat.
+[*][b]Everyone is prey[/b] - the Risen and other raiders attack each other on sight.
+[*][b]The horde comes more often[/b] - when a raid rolls another hostile faction, there is a 35% chance the Risen bring it instead (configurable). Same number of raids, different guests.
+[/list]
+
+[size=4][b]Perk: Risen[/b][/size]
+Given to whoever gets back up. It cannot be picked at character creation.
+[list]
+[*]+40% max health, +20% melee damage.
+[*]-25% movement speed.
+[*]Barely eats or sleeps, and corpses mean nothing to them.
+[/list]
+
+[size=4][b]How it works[/b][/size]
+[list]
+[*][b]Festering wound[/b] - the claws leave a wound that needs tending and rest: -30% movement, -35% work speed, healing slowed to a quarter. Only about [b]one in three[/b] come through it.
+[*][b]They get back up[/b] - a settler killed by the Risen, or who dies while carrying the wound, rises as one of them with a quarter of their health.
+[*][b]They hunt[/b] - they look for prey up to 25 tiles away and see 14 tiles; no more than four gang up on the same target. If they cannot reach you, they break through doors and walls.
+[*][b]Hated by all[/b] - they attack every other faction, and every other faction attacks them.
+[*][b]They never faint, surrender or retreat.[/b]
+[*][b]More raids from the horde[/b] - 35% of raids that roll another hostile faction are brought by the Risen instead.
+[/list]
+Every number above can be changed in [i]BepInEx\config\aldrich.undead_horde.cfg[/i].
+
+[size=4][b]Requirements[/b][/size]
+[list]
+[*][b]BepInEx 5 (x64)[/b]. Vortex installs it for you with Going Medieval.
+[/list]
+
+[size=4][b]Installation[/b][/size]
+[b]With Vortex:[/b] install it like any other mod.
+
+[b]By hand:[/b]
+[list=1]
+[*]Install BepInEx 5 (x64) in the Going Medieval folder, if you have not already.
+[*]Extract the archive into the Going Medieval folder (where [i]Going Medieval.exe[/i] is), so the file ends up at:
+[code]Going Medieval\BepInEx\plugins\AldrichUndeadHorde\Aldrich.UndeadHorde.dll[/code]
+[/list]
+On the first launch the mod copies its data to [i]Documents\Foxy Voxel\Going Medieval\Mods\UndeadHorde[/i], which is where the game reads mods from. If it does not show as active in the game's [b]Mods[/b] menu, enable [i]Aldrich - Undead Horde[/i] there once.
+
+[size=4][b]Settings[/b][/size]
+After the first launch, in [i]BepInEx\config\aldrich.*.cfg[/i].
+
+[size=4][b]Uninstall[/b][/size]
+Remove the mod in Vortex, or delete [i]BepInEx\plugins\AldrichUndeadHorde[/i], and delete [i]Documents\Foxy Voxel\Going Medieval\Mods\UndeadHorde[/i]. Anything already built or spawned with it disappears from saves that have it.
+
+[size=4][b]Compatibility[/b][/size]
+Works on its own. Plays well with the other Aldrich mods. Best started on a new game, so the faction gets its place on the world map.
+
+[size=4][b]Problems[/b][/size]
+Please post [i]Going Medieval\BepInEx\LogOutput.log[/i] - the lines that start with [i][data][/i] and [i]Aldrich - Undead Horde[/i] tell what happened.
+
+[size=4][b]Permissions[/b][/size]
+All rights reserved. Please do not re-upload this mod, in whole or in part, to any other site, and do not publish modified versions of it. The only official download is this page.

@@ -1,0 +1,26 @@
+Mod 1 . -
+
+Zombies / Undead overhaul
+
+Oleadas de zombies configurables.
+Zombies exclusivamente de combate cuerpo a cuerpo.
+Atacan directamente:
+colonos/personajes
+animales
+torres/estructuras defensivas
+posiblemente edificios en general.
+Ataques melee con posibilidad de infectar al personaje.
+Diferentes tipos de zombie.
+NPCs personalizados.
+Cambiar apariencia.
+Cambiar tamaño/escala.
+Accesorios/equipamiento con el que aparecen.
+Cambiar estadísticas.
+Cambiar comportamiento/IA.
+Posiblemente crear modelos nuevos.
+
+Zombies - cambiar el tamaño de oleadas a puro golpe mele , ataque directamente a todo torres , animales, que los ataques a mele infecten a tus personajes , 
+
+mod going agregar una que sea recoger cadaver, esta habilidad le permite ver cadaverser como un enterrador profesional , crear todo lo que conlleva sus skills , puntos y asi, buscar si en las ramas se puede agregar esa habilidad de que se pueden agregar varios cuerpos a las pilas fúnebres para quemar o hacer pilas fúnebres mas grandes para quemar 
+
+mod 2 crear un sistema de ratas , si existen ciertos cuerpos en un area sin quemar o enterrar spawnear ratas siendo incremental , las ratas pueden atacar si hay mucho muchos cuerpos esto es incremental también y contagiar la peste 

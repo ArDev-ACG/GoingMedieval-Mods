@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Aldrich.VampireCourt</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(Src)BiteGoal.cs;$(Src)BiteMenuInjection.cs;$(Src)BiteMenuItem.cs;$(Src)BiteOrder.cs;$(Src)BiteRetry.cs;$(Src)BloodDraught.cs;$(Src)CountAura.cs;$(Src)StakeDread.cs;$(Src)Thrall.cs;$(Src)Vampire*.cs;$(Src)Plugin.Vampire.cs" />
+    <Compile Include="$(Src)Plugin.Kin.cs;$(Src)UndeadComposure.cs;$(Src)RisenPallor.cs" />
+  </ItemGroup>
+</Project>

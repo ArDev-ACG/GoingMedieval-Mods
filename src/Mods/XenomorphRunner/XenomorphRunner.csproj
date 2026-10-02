@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Aldrich.XenomorphRunner</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(Src)Xeno*.cs;$(Src)Facehugger.cs;$(Src)Plugin.Runner.cs" />
+  </ItemGroup>
+</Project>
